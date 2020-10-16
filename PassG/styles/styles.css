@@ -1,0 +1,36 @@
+/*Style*/
+
+/*html*/
+html {
+    background-image: linear-gradient(silver, gold, silver);
+}
+
+/*body*/
+
+body {
+    background-image: radial-gradient(lightyellow, silver, green);
+}
+
+header {
+    
+    color: greenyellow;
+}
+
+blockquote {
+    border-style: groove;
+    color: black;
+    background: #5980A3;
+}
+
+legend {
+    color: darkcyan;
+}
+
+fieldset#inside div#bt input {
+    background-color: chocolate;
+}
+
+footer {
+    color: aliceblue;
+    background-color: black;
+}

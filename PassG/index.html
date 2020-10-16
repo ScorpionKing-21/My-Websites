@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>PassG</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name='keywords' content="pass, 'password', 'tips about choosing password'" />
+<script defer src="script/pgscript.js"></script>
+<link rel="stylesheet" href="styles/layout.css" />
+<link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+    <header><h2>Welcome To PassG</h2></header>
+    <p class="intro">Welcome! This site is created to let you secure your system with randomly generated password which is very hard to crack. You can customize you password whichever way you like and create password upto 30 characters long.</p>
+
+    <blockquote>
+        You can choose your password in a range of <b>10 to 30 characters</b>  
+    </blockquote>
+    
+    <form>
+       <fieldset id='outside'>
+            <legend >Generator</legend>
+        
+                <div>
+                    <label for='Length'>Choose your P@55W0rd Length: </label>
+                    <input type='number' name='Length' step="1" min='10' max='30' value='10'/>
+                </div>
+
+                <div>
+                    <label for='lower'>Lower Case</label>
+                    <input type='checkbox' name='lower' checked/>
+                </div>
+
+                <div>
+                    <label for='upper'>Upper Case</label>
+                    <input type='checkbox' name='upper'/>
+                </div>
+
+                <div>
+                    <label for='symbol'>Special Character</label>
+                    <input type='checkbox' name='symbol'/>
+                </div>
+                <fieldset id="inside">
+                    <legend>Your Password</legend>
+                    <div id='txt'>
+                    <input type="text" value="" />
+                    </div>
+                    <div id='bt'>
+                        <input type="button" value="Generate"  />
+                    </div>
+                </fieldset>
+      </fieldset>
+    </form>
+    <h4>Tips about choosing password</h4>
+    <p>First of all, the password should be minimum 10 characters not 8, because it is nowadays easy to crack 8 characters password with just simple bruteforce method.
+    Secondly, your password should not be simple words like
+    someone's name and birthday <em>john1234</em>. Hackers can use dictonary attack, word-list attack. your password should include upper, lower and special characters which is helpful in creating strong password.</p>
+    <p>Minumum 10 Character</p>
+    <p>Include Upper and Lower case characters</p>
+    <p>Include Special character like: #@$...</p>
+
+    
+    <footer> <b> &#9786; Thank You For Using This Website &#9786; </b></footer>
+</body>
+
+</html>
