@@ -1,0 +1,46 @@
+.navbar {
+    position: relative;
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+
+fieldset#outside {
+    width: auto;
+    height: auto;
+    align-self: center;
+}
+
+legend {
+    text-align: center;
+    color: darkcyan;
+}
+
+#inside div#txt input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#inside div#bt input {
+    text-align: center;
+    margin:auto;
+    display:block;
+    width: 50%;
+    padding: 5px 0px 5px 0px;
+    background-color: chocolate;
+}
+
+footer {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding: 8px 8px;
+}
